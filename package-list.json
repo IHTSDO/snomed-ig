@@ -1,13 +1,14 @@
 {
   "package-id": "hl7.fhir.uv.snomed",
   "title": "SNOMED CT Implementation Guide for FHIR",
-  "canonical": "http://hl7.org/fhir/ig/snomed",
+  "canonical": "http://snomed.info/fhirIg/snomed",
+  "introduction" : "Introduction in package-list: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   "list": [
     {
       "version": "current",
       "desc": "Continuous Integration Build (latest in version control)",
       "path": "https://github.com/IHTSDO/snomed-ig",
-      "fhirversion": "4.0.0",
+      "fhirversion": "4.0.1",
       "status": "ci-build",
       "current": true
     }
