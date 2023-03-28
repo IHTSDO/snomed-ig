@@ -1,5 +1,5 @@
-
-FHIR welcomes all users into the house with open arms, offering an information model which often makes recommendations, but rarely specifying exactly which terminology should be used to populate its resources.  When an organization has selected SNOMED CT as its terminology of choice, there are a number of features of FHIR which can be used to their full potential and also a number of potential issues which should be carefully considered and appropriate made to avoid.   This guide will attempt to guide Developers, Analysts and System Architects in the best practices for using FHIR specifically with SNOMED CT in order to maximise both the rich expressivity of SNOMED and the semantic operability when exchanging FHIR Resources between systems. 
+### Welcome
+FHIR welcomes all users into the house with open arms, offering an information model which often makes recommendations, but rarely specifies exactly which terminology should be used to populate its resources.  When an organization has selected SNOMED CT as its terminology of choice, there are a number of features of FHIR which can be used to their full potential and also a number of potential issues which should be carefully considered and steps taken to avoid.   This guide will attempt to guide Developers, Analysts and System Architects in the best practices for using FHIR specifically with SNOMED CT in order to maximise both the rich expressivity of SNOMED and the semantic operability when exchanging FHIR Resources between systems. 
 
 A summary of using SNOMED CT with FHIR can be found here: [https://hl7.org/implement/standards/fhir/snomedct.html](https://hl7.org/implement/standards/fhir/snomedct.html)
 
@@ -21,6 +21,8 @@ System Architects
 Business Analysts / Specifiers / Profile Designers
 
 ### This Guide
+
+FHIR is 
 This implementation guide contains:
 * mappings from FHIR defined concepts (e.g. codes in code systems, and value sets) to SNOMED CT concepts
 * mappings from FHIR resources to the SNOMED CT concept model
