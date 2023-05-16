@@ -1,5 +1,7 @@
+<<<<<<< HEAD
 ### Welcome
-FHIR welcomes all users into the house with open arms, offering an information model which often makes recommendations, but rarely specifies exactly which terminology should be used to populate its resources.  When an organization has selected SNOMED CT as its terminology of choice, there are a number of features of FHIR which can be used to their full potential and also a number of potential issues which should be carefully considered and steps taken to avoid.   This guide will attempt to guide Developers, Analysts and System Architects in the best practices for using FHIR specifically with SNOMED CT in order to maximise both the rich expressivity of SNOMED and the semantic operability when exchanging FHIR Resources between systems. 
+
+FHIR welcomes all users into the house with open arms, offering an information model which often makes recommendations, but rarely specifies exactly which terminology should be used to populate its resources.  When an organization has selected SNOMED CT as its terminology of choice, there are a number of features of FHIR which can be used to their full potential and also a number of potential issues which should be carefully considered and appropriate made to avoid.  This guide will attempt to guide Developers, Analysts and System Architects in the best practices for using FHIR specifically with SNOMED CT in order to maximise both the rich expressivity of SNOMED and the semantic operability when exchanging FHIR Resources between systems. 
 
 A summary of using SNOMED CT with FHIR can be found here: [https://hl7.org/implement/standards/fhir/snomedct.html](https://hl7.org/implement/standards/fhir/snomedct.html)
 
@@ -10,6 +12,15 @@ SNOMED CT supports the development of comprehensive high-quality clinical conten
 ### Interoperability
 
 SNOMED CT could be considered to be like a dictionary.  It tells you exactly what medical concepts mean.  And unlike a dictionary, there is only one definition for each term.   SNOMED also shows how terms relate to each other through a polyhierarchy of "IS A" relationships and concept attributes.   It does not, however, tell you how to write a letter.  It does not tell you how to put those concepts down in a page (or a medical record) in a way that could be transmitted to another system and understood.  For this, it requires a information model, a standard for how records and messages should be laid out and populated.  Which is where HL7 FHIR comes in.   By combining these two world leading standards of both Terminology and Information Model, systems using SNOMED CT and FHIR together will be able to communicate clear and unambiguous meaning in a standard way that can be automatically understood worldwide.
+
+#### How Specific FHIR Resources align with SNOMED CT
+
+The use of SNOMED CT in specific FHIR resources has been covered in this excellent presentation by Jim Steel from CSIRO:
+
+[![Follow the Yellow Brick Code (A Terminology Journey) ]
+(https://img.youtube.com/vi/40Lvv2t8OxU/maxresdefault.jpg)]
+(https://www.youtube.com/watch?v=40Lvv2t8OxU)
+
 
 ### Distinction between Terminology Services and Binding
 
